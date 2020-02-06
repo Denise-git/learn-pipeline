@@ -1,7 +1,9 @@
 pipeline{
-  stage("Stage 1"){
-    steps{
-      echo "Ciao"
+  stages{
+    stage("Stage 1"){
+      steps{
+        echo "Ciao"
+      }
     }
   }
 }
